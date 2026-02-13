@@ -1,0 +1,17 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+build/
+
+# Env
+.env
+
+# OS
+.DS_Store
+
+# Kubernetes
+*.kubeconfig

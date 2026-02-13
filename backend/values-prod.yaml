@@ -1,0 +1,12 @@
+ingress:
+  enabled: true
+  className: nginx
+  hostname: store.yourdomain.com
+  tls: true
+
+service:
+  type: ClusterIP
+
+persistence:
+  enabled: true
+  storageClass: longhorn

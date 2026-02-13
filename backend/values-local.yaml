@@ -1,0 +1,11 @@
+ingress:
+  enabled: true
+  className: nginx
+  hostname: store.local
+
+service:
+  type: NodePort
+
+persistence:
+  enabled: true
+  storageClass: standard

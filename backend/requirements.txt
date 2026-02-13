@@ -1,0 +1,5 @@
+fastapi 
+uvicorn 
+kubernetes 
+psycopg2-binary 
+sqlalchemy
